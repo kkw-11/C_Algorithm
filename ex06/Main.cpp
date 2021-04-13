@@ -5,7 +5,6 @@ void Swap(int& a, int& b) {
 	a = b;
 	b = t;
 }
-
 void _Sort(int list[], int left, int right) {
 
 	if (left <= right) { 
@@ -19,8 +18,12 @@ void _Sort(int list[], int left, int right) {
 			while (list[pivot] < list[j])
 				--j;
 
-			if (i <= j)
+			if (i <= j) {
 				Swap(list[i], list[j]);
+				++i;
+				--j;
+
+			}
 			else
 				break;
 		}
@@ -32,7 +35,6 @@ void _Sort(int list[], int left, int right) {
 }
 //Sort는 퀵소트의 재귀적인 구현을 위한 매개변수를 모두 갖고 있지 않으므로
 //위임함수를 만들어서 동작 시킴
-//
 void Sort(int list[], int size) {
 
 	_Sort(list, 0, size - 1);
