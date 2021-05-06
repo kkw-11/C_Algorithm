@@ -101,7 +101,6 @@ void BFS(Graph* pg, int ver) {
 	for (int i = 0; i < pg->verSize; ++i) {
 		visited[i] = 0;
 	}
-
 	queue<int> q;
 	q.push(ver);
 	visited[ver] = 1;
@@ -115,7 +114,6 @@ void BFS(Graph* pg, int ver) {
 				q.push(p->data);
 				visited[p->data] = 1;
 			}
-				
 		}
 	}
 	printf("\n");
