@@ -11,7 +11,7 @@ struct Hash {
 };
 int HashFunction(int key, int tableSize) {
 
-	int addr = key % (tableSize);//Àß ÀÛ¼º! È¿À²ÀûÀÎ ÇØ½¬ ±¸Á¶
+	int addr = key % (tableSize);//ì˜ ì‘ì„±! íš¨ìœ¨ì ì¸ í•´ì‰¬ êµ¬ì¡°
 	return addr;
 }
 void PushHash(Hash* ph, int key) {
@@ -87,6 +87,10 @@ int main() {
 	return 0;
 }
 
+///////////////////////////////////////////////////////////////////////////////////////
+// ì•„ë˜ì½”ë“œëŠ” ë¦¬íŒ¨í† ë§ì „ ìŠ¤í„°ë”” ì½”ë“œ
+
+
 //#include<cstdio>
 //#include <cstdlib>
 //#include<list>
@@ -98,7 +102,7 @@ int main() {
 //};
 //int HashFunction(int key, int tableSize) {
 //
-//	int addr = key % (tableSize);//Àß ÀÛ¼º! È¿À²ÀûÀÎ ÇØ½¬ ±¸Á¶
+//	int addr = key % (tableSize);//ì˜ ì‘ì„±! íš¨ìœ¨ì ì¸ í•´ì‰¬ êµ¬ì¡°
 //	return addr;
 //}
 //void PushHash(Hash* ph, int key) {
@@ -203,7 +207,7 @@ int main() {
 //};
 //int HashFunction(int key, int tableSize) {
 //
-//	int addr = key % (tableSize);//Àß ÀÛ¼º! È¿À²ÀûÀÎ ÇØ½¬ ±¸Á¶
+//	int addr = key % (tableSize);//ì˜ ì‘ì„±! íš¨ìœ¨ì ì¸ í•´ì‰¬ êµ¬ì¡°
 //	return addr;
 //}
 //void PushHash(Hash* ph, int key) {
@@ -271,7 +275,7 @@ int main() {
 //};
 //int HashFunction(int key, int tableSize) {
 //
-//	int addr = key % (tableSize);//Àß ÀÛ¼º! È¿À²ÀûÀÎ ÇØ½¬ ±¸Á¶
+//	int addr = key % (tableSize);//ì˜ ì‘ì„±! íš¨ìœ¨ì ì¸ í•´ì‰¬ êµ¬ì¡°
 //	return addr;
 //}
 //void PushHash(Hash* ph, int key) {
@@ -317,9 +321,9 @@ int main() {
 //	PrintHash(&h);
 //
 //	if (FindHash(&h, 100))
-//		printf("Á¸Àç!\n");
+//		printf("ì¡´ì¬!\n");
 //	else
-//		printf("¾øÀ½!\n");
+//		printf("ì—†ìŒ!\n");
 //	
 //	UninitHash(&h);
 //	system("pause");
@@ -338,7 +342,7 @@ int main() {
 //};
 //int HashFunction(int key) {
 //
-//	int addr = key % 10;//Àß ÀÛ¼º! È¿À²ÀûÀÎ ÇØ½¬ ±¸Á¶
+//	int addr = key % 10;//ì˜ ì‘ì„±! íš¨ìœ¨ì ì¸ í•´ì‰¬ êµ¬ì¡°
 //	return addr;
 //}
 //void PushHash(Hash* ph, int key) {
@@ -376,9 +380,9 @@ int main() {
 //	PrintHash(&h);
 //
 //	if (FindHash(&h, 100))
-//		printf("Á¸Àç!\n");
+//		printf("ì¡´ì¬!\n");
 //	else
-//		printf("¾øÀ½!\n");
+//		printf("ì—†ìŒ!\n");
 //	system("pause");
 //
 //	return 0;
@@ -392,7 +396,7 @@ int main() {
 //list<int> table[10];
 //int HashFunction(int key) {
 //
-//	int addr = key % 10;//Àß ÀÛ¼º! È¿À²ÀûÀÎ ÇØ½¬ ±¸Á¶
+//	int addr = key % 10;//ì˜ ì‘ì„±! íš¨ìœ¨ì ì¸ í•´ì‰¬ êµ¬ì¡°
 //	return addr;
 //}
 //void PushHash(int key) {
@@ -429,9 +433,9 @@ int main() {
 //	PrintHash();
 //
 //	if (FindHash(100))
-//		printf("Á¸Àç!\n");
+//		printf("ì¡´ì¬!\n");
 //	else
-//		printf("¾øÀ½!\n");
+//		printf("ì—†ìŒ!\n");
 //	system("pause");
 //
 //	return 0;
