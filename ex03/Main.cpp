@@ -27,13 +27,13 @@ public:
             arr[i] = arr[i + 1];
         --size;
     }
-    Array(int cap) // »ı¼ºÀÚ
+    Array(int cap) // ìƒì„±ì
     {
         size = 0;
         capacity = cap;
         arr = new T[cap];
     }
-    ~Array()// ¼Ò¸êÀÚ
+    ~Array()// ì†Œë©¸ì
     {
         delete[] arr;
     }
@@ -50,6 +50,9 @@ int main()
         printf("%g\n", arr.At(i));
     system("pause");
 }
+///////////////////////////////////////////////////////////////////////////////////////
+// ì•„ë˜ì½”ë“œëŠ” ë¦¬íŒ¨í† ë§ì „ ìŠ¤í„°ë”” ì½”ë“œ
+
 
 //#include <cstdio>
 //#include <cstdlib>
@@ -80,13 +83,13 @@ int main()
 //            arr[i] = arr[i + 1];
 //        --size;
 //    }
-//    Array(int cap) // »ı¼ºÀÚ
+//    Array(int cap) // ìƒì„±ì
 //    {
 //        size = 0;
 //        capacity = cap;
 //        arr = new T[cap];
 //    }
-//    ~Array()// ¼Ò¸êÀÚ
+//    ~Array()// ì†Œë©¸ì
 //    {
 //        delete[] arr;
 //    }
@@ -132,13 +135,13 @@ int main()
 //            arr[i] = arr[i + 1];
 //        --size;
 //    }
-//    Array(int cap) // »ı¼ºÀÚ
+//    Array(int cap) // ìƒì„±ì
 //    {
 //        size = 0;
 //        capacity = cap;
 //        arr = new int[cap];
 //    }
-//    ~Array()// ¼Ò¸êÀÚ
+//    ~Array()// ì†Œë©¸ì
 //    {
 //        delete[] arr;
 //    }
@@ -185,14 +188,14 @@ int main()
 //            arr[i] = arr[i + 1];
 //        --size;
 //    }
-//    Array(int cap) // »ı¼ºÀÚ
+//    Array(int cap) // ìƒì„±ì
 //    {
 //        size = 0;
 //        capacity = cap;
 //        arr = new int[cap];
 //        printf("Array()\n");
 //    }
-//    ~Array()// ¼Ò¸êÀÚ
+//    ~Array()// ì†Œë©¸ì
 //    {
 //        delete[] arr;
 //        printf("~Array()\n");
