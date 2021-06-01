@@ -44,9 +44,6 @@ int Substring(const char* str1, const char* str2) {
 		}
 	}
 
-
-
-
 	PrintArray(arr, row, col);
 	int retValue =0;
 	for (int i = 1; i < row; ++i) {
