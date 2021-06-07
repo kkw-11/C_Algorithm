@@ -6,7 +6,7 @@
 
 ## Description
 * ex02
- * stack 자료구조 구현해보기
+  * stack 자료구조 구현해보기
 
 * ex03
   * Array 라이브러리 구현해보기
