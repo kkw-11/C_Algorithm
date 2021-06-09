@@ -20,6 +20,7 @@ int Substring(const char* str1, const char* str2) {
 	for (int i = 0; i < row; ++i) {
 		arr[i] = new int[col];
 	}
+
 	//arr[0] = new int[col];
 	//arr[1] = new int[col];
 	//arr[2] = new int[col];
