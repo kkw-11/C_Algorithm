@@ -52,7 +52,7 @@
 
 ### ex13
   * heap, priority queue구현
-  * STL 사용법   
+  * STL 사용법(make_heap, push_heap, pop_heap)   
 
 ### ex14
   * 절차지향 방식으로 CLI 전화번호부 개발해보고 객체지향 방식으로 refactoring
